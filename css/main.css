@@ -28,12 +28,16 @@ html {
   transition: all .5s linear;
 }
 
-right-eyebrow {
+.right-eyebrow {
   transform: rotate(80deg);
   transform-origin: 156px 82px;
   transition: all .5s linear;
 }
 
 .smiley:hover .left-eyebrow {
+  transform: rotate(100deg);
+}
+
+.smiley:hover .right-eyebrow {
   transform: rotate(100deg);
 }
