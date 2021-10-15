@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  -webkit-text-size-adjust:100%;
+  -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -22,7 +22,7 @@ html {
   stroke-linecap: round;
 }
 
-.left-eyebrow{
+.left-eyebrow {
   transform: rotate(80deg);
   transform-origin: 100px 82px;
   transition: all .5s linear;
